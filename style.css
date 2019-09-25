@@ -1,10 +1,36 @@
-ul {
+nav {
+    background-color: black;
+}
+
+nav ul {
     list-style-type: none;
     overflow: hidden;
     margin: 0;
     padding: 0;
+    
 }
 
-li {
-    float: left;
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    padding: 10px 30px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    
+    
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
