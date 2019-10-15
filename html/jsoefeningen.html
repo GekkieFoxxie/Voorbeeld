@@ -13,6 +13,7 @@
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="jsoefeningen.html">Oefeningen</a></li>
+					<li><a href="minigames.html">Minigames</a></li>
                 </ul>
             </nav>
         </header>
@@ -40,8 +41,32 @@
 			<h2>Dobbelsteen</h2>
 			<button id="btnDobbelsteen">Dobbel</button>
 			<div id="uitvoerDobbelsteen"></div>
-		</div>	
+		</div>
 			
+			<div class="Currency">
+			<h2>Currency convertor</h2>
+			<input type="number" id="inputCurrency" placeholder="Aantal euro" step="any">
+			<select id="currencySelector">
+				<option value="dollar">Dollar</option>
+				<option value="yen">Yen</option>
+				<option value="pond">Pond</option>
+				<option value="kroon">Deense Kroon</option>
+				</select>
+				<button id="btnCurrency">Bereken</button>
+				<div id="uitvoerCurrency"></div>
+			</div>
+		<div class="Schrikkeljaar">
+			<h2>Schikkeljaar of niet?</h2>	
+			<input type="number" id="inputSchrikkeljaar" placeholder="Jaartal" min="0" max="100000">	
+			<button id="btnSchrikkeljaar">Bekijk</button>
+			<div id="uitvoerSchrikkeljaar"></div>
+		</div>	
+			<div class="arrayBalsport">
+			<h2>Balsport of niet</h2>
+			<p>Balspot of niet: <strong id="sportKeuze"></strong></p>
+				<button id="btnBalsport">Balsport</button>
+				<button id="btnGeenBalsport">Geen Balsport</button>
+			</div>
         </main>
         <footer></footer>      
     
@@ -49,7 +74,10 @@
 	<script src="../js/aanpassing.js"></script>
 	<script src="../js/rekenmachine.js"></script>
 	<script src="../js/dobbelsteen.js"></script>
-	
+	<script src="../js/converter.js"></script>
+	<script src="../js/Schikkeljaar.js"></script>
+	<script src="../js/arraysport.js"></script>
+		
 	</body>
 
 </html>

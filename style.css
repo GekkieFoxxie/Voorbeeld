@@ -46,7 +46,14 @@ h1 {
     border-left: hidden;
 }
 
-.Midden {
+.Midden, .Currency, .Schrikkeljaar, .arrayBalsport {
 	text-align: center;
 	font-family: Arial;
+}
+
+#imgPersoon1, #imgPersoon2 {
+	width: 200px
+}
+main {
+	text-align: center;
 }

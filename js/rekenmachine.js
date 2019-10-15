@@ -8,6 +8,7 @@
 
 	var uitvoer = document.getElementById("uitvoer");
 	
+
 	btnSom.addEventListener("click", function() {
 		let resultaat = parseInt(getal1.value) + parseInt(getal2.value);
 		let paragraph = createParagraph();

@@ -53,7 +53,7 @@ btnDobbelsteen.addEventListener("click", function() {
 			break;
 			
 	}
-	uitvoerDobbelsteen.innerHTML = "";
+	uitvoerDobbelsteen.innerHTML = "";	
 	
 	uitvoerDobbelsteen.append(image);
 });
